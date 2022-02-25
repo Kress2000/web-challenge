@@ -22,20 +22,13 @@ const whenWeClick = window.addEventListener('click', (e)=>{
 
                               );
 
-  
 function openFunction(){
             mobileMenu.style.right = "0px";
             btn.style.opacity = "0";
             cancel.style.opacity = "1";
             }
  
-  //function calls here down................. 
-//whenWeClick();
-//openFunction();
-
-
-
-
+  
 
 
 //skille section lines................................................
