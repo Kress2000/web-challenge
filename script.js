@@ -3,24 +3,17 @@
 const btn= document.getElementById('btn');
 const cancel = document.getElementById('cancel');
 const mobileMenu = document.getElementById('mobile-menu-offcanvas1');
-//const wrapper = document.getElementsByClassName('main-wrapper');
 
           
-const whenWeClick = window.addEventListener('click', (e)=>{
 
-                              if(e.target.id !== 'btn' && e.target.class !== 'small-screens'){
-                                                        function closeFunction(){
-                                                                    mobileMenu.style.right = "-1000px";
-                                                                    btn.style.opacity = "1";
-                                                                    cancel.style.opacity = "0";
-                                                                    
-                                                                    }
-                                                  
-                                                            closeFunction();
-                                                       }
-                                 }
+      function closeFunction(){
+                  mobileMenu.style.right = "-1000px";
+                  btn.style.opacity = "1";
+                  cancel.style.opacity = "0";
 
-                              );
+                  }
+
+          closeFunction();
 
 function openFunction(){
             mobileMenu.style.right = "0px";
